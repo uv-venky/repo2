@@ -36,16 +36,9 @@ export default async function RootLayout({
   await init();
 
   return (
-    <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">
-        <AppThemeProvider
-          nonce={nonce ?? undefined}
-          className={cn(inter.variable, geistSans.variable, geistMono.variable)}
-        >
-          {children}
-        </AppThemeProvider>
-      </body>
-    </html>
+    <AppThemeProvider nonce={nonce ?? undefined} className={cn(inter.variable, geistSans.variable, geistMono.variable)}>
+      {children}
+    </AppThemeProvider>
   );
 }
 

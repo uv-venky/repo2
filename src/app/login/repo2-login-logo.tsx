@@ -22,7 +22,7 @@ export function Repo2LoginLogo({ className, fill = '#512eff', maxHeight = 58 }: 
           fontWeight="700"
           fill={fill}
         >
-          2
+          V
         </text>
       </svg>
       <span
