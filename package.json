@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "node scripts/post-install.js"
+    "postinstall": "node scripts/post-install.js",
+    "migrate": "tsx scripts/migrate run"
   },
     "dependencies": {
       "venky-core": "github:uv-venky/venky-core#v0.4.5",
