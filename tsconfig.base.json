@@ -34,13 +34,11 @@
       "venky-core/data-ui": ["./node_modules/venky-core/dist/venky-exports/core/data-ui/index"],
       "@/components/ui/*": ["./node_modules/venky-core/dist/components/ui/*"],
       "@/components/elements/*": ["./node_modules/venky-core/dist/components/elements/*"],
-      "@/*": ["./app/*", "./src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
     "./next-env.d.ts",
-    "./app/**/*.ts",
-    "./app/**/*.tsx",
     "./src/**/*.ts",
     "./src/**/*.tsx",
     "./.next/types/**/*.ts",

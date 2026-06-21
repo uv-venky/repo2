@@ -2,9 +2,8 @@
 @plugin 'tailwindcss-animate';
 @plugin 'tailwind-scrollbar';
 
-@source "../node_modules/venky-core/src/**/*.{ts,tsx}";
-@source "../app/**/*.{ts,tsx}";
-@source "../src/**/*.{ts,tsx}";
+@source "../../node_modules/venky-core/src/**/*.{ts,tsx}";
+@source "../../src/**/*.{ts,tsx}";
 
 :root {
   --background: #ffffff;

@@ -6,7 +6,7 @@ import { headers } from 'next/headers';
 import { AppThemeProvider } from 'venky-core/ui';
 
 import './globals.css';
-import { init } from '../src/lib/server/init/init';
+import { init } from '../lib/server/init/init';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 

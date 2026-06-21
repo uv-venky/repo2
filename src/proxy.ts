@@ -1,5 +1,5 @@
 import type { NextRequest } from 'next/server';
-import { init } from './src/lib/server/init/init';
+import { init } from './lib/server/init/init';
 import logger from 'venky-core/server/logger';
 import type { ProxyCoreOptions } from 'venky-core/server';
 
