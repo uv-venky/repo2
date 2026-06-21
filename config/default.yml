@@ -1,0 +1,19 @@
+# For smtp config, refer SMTPTransport.Options https://nodemailer.com/smtp/
+appId: 'repo2'
+smtp:
+  from: 'noreply@repo2.local'
+  host: 'localhost'
+  port: 1025
+init:
+  admin:
+    email: 'admin@repo2.local'
+    password: 'change-me-on-first-login!'
+orgName: 'Repo2'
+secret: ''
+adminAlertEmails:
+  - 'admin@repo2.local'
+features:
+  workflow: false
+  complianceExport: false
+  commandCenter: false
+  naturalLanguageSearch: false
